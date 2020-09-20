@@ -11,3 +11,163 @@ word-break: break-all;
 body {
     background-color: hsl(218, 28%, 13%);
 }
+/* HEADER SECTION*/
+    header {
+
+    }
+        .header-img {
+
+        }
+        .header-nav {
+
+        }
+            .header-nav > a{
+                
+            }
+
+/* HERO SECTION */
+    .hero-row {
+
+    }
+        .hero-row > img {
+
+        }
+        .title {
+
+        }
+        .sub-title {
+
+        }
+            .sub-title > a {
+
+            }
+
+/* SERVICES SECTION */
+    .services-section {
+
+    }
+        .services {
+
+        }
+            .services > img {
+
+            }
+            .services > h4 {
+
+            }
+            .services > p {
+
+            }
+
+/* STAY PRODUCTIVE SECTION */
+    .stay-productive-section {
+
+    }
+        .stay-productive {
+
+        }
+        .stay-productive-section > h2 {
+
+        }
+        .stay-productive-section > p {
+
+        }
+        .stay-productive-section > a {
+
+        }
+        .arrow {
+
+        }
+
+/* TESTIMONIALS SECTION */
+    .testimonials-section {
+
+    }
+        .profile-1 {
+
+        }
+        .profile-2 {
+
+        }
+        .profile-3 {
+
+        }
+            .quote {
+
+            }
+                .quote p {
+
+                }
+            .author {
+
+            }
+                .author img {
+
+                }
+                .name {
+
+                }
+                .position {
+
+                }
+
+/* GET STARTED SECTION */
+    .get-started-section {
+
+    }
+        .get-started-section > h2 {
+
+        }
+        .get-started-section > p {
+
+        }
+        form {
+
+        }
+            .form-row {
+
+            }
+                input {
+
+                }
+
+/* FOOTER SECTION */
+    .container {
+
+    }
+        .footer-logo {
+
+        }
+            .footer-Fylo {
+
+            }
+            .location {
+
+            }
+            .footer-logo > p {
+
+            }
+        .contacts {
+
+        }
+            .contacts img {
+
+            }
+            .contacts a {
+
+            }
+        .footer-nav {
+
+        }
+            .footer-nav a {
+
+            }
+        .socials {
+
+        }
+            .socials a {
+
+            }
+        .attribution {
+
+        }

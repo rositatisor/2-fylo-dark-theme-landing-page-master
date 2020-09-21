@@ -35,153 +35,214 @@ background-color: hsl(218, 28%, 13%);
 
 /* HERO SECTION */
     .hero-row {
-
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        color: #fff;
     }
         .hero-row > img {
-
+            display: inline-block;
+            width: 50%;
+            margin-bottom: 40px;
         }
         .title {
-
+            display: inline-block;
+            width: 50%;
+            margin: 0 25%;
         }
         .sub-title {
-
+            display: inline-block;
+            width: 40%;
+            margin: 0 30%;
         }
-            .sub-title > a {
-
+        .hero-row > a {
+            display: inline-block;
+            width: 280px;
+            text-decoration: none;
+            color: #ffffff;
+            border-radius: 28px;
+            height: 56px;
+            line-height: 56px;
+            background-image: 
+                linear-gradient(130deg, 
+                hsl(176, 68%, 64%), 
+                hsl(198, 60%, 50%));
             }
 
 /* SERVICES SECTION */
     .services-section {
+        display: inline-block;
 
     }
         .services {
+            display: inline-block;
 
         }
             .services > img {
+                display: inline-block;
 
             }
             .services > h4 {
+                display: inline-block;
 
             }
             .services > p {
+                display: inline-block;
 
             }
 
 /* STAY PRODUCTIVE SECTION */
     .stay-productive-section {
+        display: inline-block;
 
     }
         .stay-productive {
+            display: inline-block;
 
         }
         .stay-productive-section > h2 {
+            display: inline-block;
 
         }
         .stay-productive-section > p {
+            display: inline-block;
 
         }
         .stay-productive-section > a {
+            display: inline-block;
 
         }
         .arrow {
+            display: inline-block;
 
         }
 
 /* TESTIMONIALS SECTION */
     .testimonials-section {
+        display: inline-block;
 
     }
         .testimonials-bg {
+            display: inline-block;
 
         }
         .bg-quote{
+            display: inline-block;
 
         }
         .profile-1 {
+            display: inline-block;
 
         }
         .profile-2 {
+            display: inline-block;
 
         }
         .profile-3 {
+            display: inline-block;
 
         }
             .quote {
+                display: inline-block;
 
             }
                 .quote p {
+                    display: inline-block;
 
                 }
             .author {
+                display: inline-block;
 
             }
                 .author img {
+                    display: inline-block;
 
                 }
                 .name {
+                    display: inline-block;
 
                 }
                 .position {
+                    display: inline-block;
 
                 }
 
 /* GET STARTED SECTION */
     .get-started-section {
+        display: inline-block;
 
     }
         .get-started-section > h2 {
+            display: inline-block;
 
         }
         .get-started-section > p {
+            display: inline-block;
 
         }
         form {
+            display: inline-block;
 
         }
             .form-row {
+                display: inline-block;
 
             }
                 input {
+                    display: inline-block;
 
                 }
 
 /* FOOTER SECTION */
     .container {
+        display: inline-block;
 
     }
         .footer-logo {
+            display: inline-block;
 
         }
             .footer-Fylo {
+                display: inline-block;
 
             }
             .location {
+                display: inline-block;
 
             }
             .footer-logo > p {
+                display: inline-block;
 
             }
         .contacts {
+            display: inline-block;
 
         }
             .contacts img {
+                display: inline-block;
 
             }
             .contacts a {
+                display: inline-block;
 
             }
         .footer-nav {
+            display: inline-block;
 
         }
             .footer-nav a {
+                display: inline-block;
 
             }
         .socials {
+            display: inline-block;
 
         }
             .socials a {
+                display: inline-block;
 
             }
         .attribution {
+            display: inline-block;
 
         }

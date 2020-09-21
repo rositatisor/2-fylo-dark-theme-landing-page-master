@@ -57,7 +57,7 @@ background-color: hsl(218, 28%, 13%);
         }
         .sub-title {
             display: inline-block;
-            width: 40%;
+            width: 45%;
             margin: 0 30%;
             font-size: 19px;
             margin-bottom: 30px;
@@ -81,14 +81,14 @@ background-color: hsl(218, 28%, 13%);
 /* SERVICES SECTION */
     .services-section {
         display: inline-block;
-        margin: 100px 20%;
-        width: 60%;
+        margin: 120px 15%;
+        width: 70%;
         text-align: center;
     }
         .services {
             display: inline-block;
-            width: 40%;
-            margin: 4%;
+            width: 44%;
+            margin: 2%;
         }
             .services > img {
                 height: 80px;
@@ -99,33 +99,46 @@ background-color: hsl(218, 28%, 13%);
                 margin-bottom: 10px;
             }
             .services > p {
-                
+                margin-bottom: 40px;
             }
 
 /* STAY PRODUCTIVE SECTION */
     .stay-productive-section {
         display: inline-block;
-
+        float: left;
+        width: 90%;
+        margin: 0 5%;
     }
-        .stay-productive {
+        .left-img > img {
             display: inline-block;
-
+            width: 50%;
+            float: left;
+            height: 400px;
         }
-        .stay-productive-section > h2 {
+        .stay-productive-section h1 {
             display: inline-block;
-
+            float: left;
+            width: 30%;
+            margin-left: 4%;
+            margin-right: 10%;
+            font-size: 35px;
+            line-height: 50px;
+            margin-bottom: 15px;
         }
-        .stay-productive-section > p {
+        .stay-productive-section p {
             display: inline-block;
-
+            float: left;
+            width: 40%;
+            margin: 10px 4%;
         }
-        .stay-productive-section > a {
+        .stay-productive-section a {
             display: inline-block;
-
-        }
-        .arrow {
-            display: inline-block;
-
+            margin-left: 4%;
+            margin-top: 10px;
+            text-decoration: none;
+            padding-bottom: 2px;
+            color: hsl(176, 68%, 64%);
+            border-bottom: 1px solid hsl(176, 68%, 64%);
         }
 
 /* TESTIMONIALS SECTION */

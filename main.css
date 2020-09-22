@@ -109,18 +109,24 @@ background-color: hsl(218, 28%, 13%);
         width: 90%;
         margin: 0 5%;
     }
-        .left-img > img {
+            .left-img > img {
+                display: inline-block;
+                width: 50%;
+                float: left;
+                height: 400px;
+            }
+        .right-text {
             display: inline-block;
             width: 50%;
-            float: left;
-            height: 400px;
+            justify-content: center;
+            align-items: center;
         }
         .stay-productive-section h1 {
             display: inline-block;
             float: left;
-            width: 30%;
+            width: 60%;
             margin-left: 4%;
-            margin-right: 10%;
+            margin-right: 36%;
             font-size: 35px;
             line-height: 50px;
             margin-bottom: 15px;
@@ -128,8 +134,9 @@ background-color: hsl(218, 28%, 13%);
         .stay-productive-section p {
             display: inline-block;
             float: left;
-            width: 40%;
+            width: 76%;
             margin: 10px 4%;
+            margin-right: 20%;
         }
         .stay-productive-section a {
             display: inline-block;
@@ -140,6 +147,9 @@ background-color: hsl(218, 28%, 13%);
             color: hsl(176, 68%, 64%);
             border-bottom: 1px solid hsl(176, 68%, 64%);
         }
+            .arrow {
+                padding-top: 3.5px;
+            }
 
 /* TESTIMONIALS SECTION */
     .testimonials-section {

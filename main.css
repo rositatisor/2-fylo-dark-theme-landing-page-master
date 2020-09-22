@@ -7,9 +7,11 @@ box-sizing: border-box;
 font-family: 'Open Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 14px;
 color: #fff;
-background-color: hsl(218, 28%, 13%);
 }
 
+body{
+    background-color: hsl(218, 28%, 13%);
+}
 /* HEADER SECTION*/
     header {
         display: flex;
@@ -108,18 +110,20 @@ background-color: hsl(218, 28%, 13%);
         float: left;
         width: 90%;
         margin: 0 5%;
+        margin-bottom: 140px;
     }
+        .left-img {
+            width: 50%;
+        }
             .left-img > img {
                 display: inline-block;
-                width: 50%;
                 float: left;
                 height: 400px;
             }
         .right-text {
             display: inline-block;
             width: 50%;
-            justify-content: center;
-            align-items: center;
+            height: 400px;
         }
         .stay-productive-section h1 {
             display: inline-block;
@@ -130,6 +134,7 @@ background-color: hsl(218, 28%, 13%);
             font-size: 35px;
             line-height: 50px;
             margin-bottom: 15px;
+            margin-top: 60px;
         }
         .stay-productive-section p {
             display: inline-block;
@@ -154,51 +159,65 @@ background-color: hsl(218, 28%, 13%);
 /* TESTIMONIALS SECTION */
     .testimonials-section {
         display: inline-block;
-
+        width: 90%;
+        margin: 50px 5%;
+        position: relative; 
+        /* pakoreguot */
     }
         .testimonials-bg {
-            display: inline-block;
-
+            
         }
         .bg-quote{
-            display: inline-block;
-
+            position: absolute;
+            /* pakoreguot */
         }
-        .profile-1 {
+        .profile {
             display: inline-block;
-
+            float: left;
+            width: 30%;
+            background-color: hsl(219, 30%, 18%);
+            border-radius: 6px;
         }
-        .profile-2 {
-            display: inline-block;
-
-        }
-        .profile-3 {
-            display: inline-block;
-
+        .profile-2{
+            margin: 0 5%;
         }
             .quote {
                 display: inline-block;
-
+                width: 80%;
+                margin: 10% 10%;
+                margin-bottom: 6%;
             }
                 .quote p {
                     display: inline-block;
-
+                    width: 100%;
+                    line-height: 20px;
                 }
             .author {
                 display: inline-block;
-
+                width: 100%;
             }
                 .author img {
                     display: inline-block;
-
+                    float: left;
+                    height: 20px;
+                    border-radius: 10px;
+                    margin-left: 10%;
                 }
                 .name {
                     display: inline-block;
-
+                    float: left;
+                    width: 60%;
+                    font-weight: 700;
+                    margin-left: 3%;
+                    font-size: 10px;
                 }
                 .position {
                     display: inline-block;
-
+                    width: 60%;
+                    float: left;
+                    margin-left: 3%;
+                    font-size: 8px;
+                    margin-bottom: 26px;
                 }
 
 /* GET STARTED SECTION */

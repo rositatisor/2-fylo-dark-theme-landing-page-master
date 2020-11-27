@@ -107,17 +107,18 @@ body{
 /* STAY PRODUCTIVE SECTION */
     .stay-productive-section {
         display: inline-block;
-        float: left;
         width: 90%;
         margin: 0 5%;
         margin-bottom: 140px;
     }
         .left-img {
+            display: inline-block;
+            float: left;
             width: 50%;
         }
             .left-img > img {
                 display: inline-block;
-                float: left;
+                float: right;
                 height: 400px;
             }
         .right-text {

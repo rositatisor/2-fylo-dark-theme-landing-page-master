@@ -21,20 +21,23 @@ body{
         align-items: center;
     }
         .header-img {
-        display: inline-block;
-        width: 176px;
+            display: inline-block;
+            width: 176px;
         }
         .header-nav {
-        display: inline-block;
+            display: inline-block;
         }
             .header-nav > a{
-            display: inline-block;;
-            text-decoration: none;
-            color: #ffffff;
-            float: left;
-            margin: 0px 30px;
-            font-family: 'Raleway';
+                display: inline-block;;
+                text-decoration: none;
+                color: #ffffff;
+                float: left;
+                margin: 0px 30px;
+                font-family: 'Raleway';
             }
+                .header-nav > a:hover {
+                    text-decoration: underline;
+                }
 
 /* HERO SECTION */
     .hero-row {
@@ -79,6 +82,12 @@ body{
                 hsl(176, 68%, 64%), 
                 hsl(198, 60%, 50%));
             }
+        
+        .hero-row > a:hover {
+            background-image:linear-gradient(130deg, 
+                hsl(176, 68%, 64%), 
+                hsl(176, 68%, 64%));
+        }
 
 /* SERVICES SECTION */
     .services-section {
@@ -153,9 +162,12 @@ body{
             color: hsl(176, 68%, 64%);
             border-bottom: 1px solid hsl(176, 68%, 64%);
         }
-            .arrow {
-                padding-top: 3.5px;
+            .stay-productive-section a:hover {
+                font-weight: bold;
             }
+        .arrow {
+            padding-top: 3.5px;
+        }
 
 /* TESTIMONIALS SECTION */
     .testimonials-section {
@@ -163,14 +175,12 @@ body{
         width: 90%;
         margin: 50px 5%;
         position: relative; 
-        /* pakoreguot */
     }
-        .testimonials-bg {
-            
-        }
         .bg-quote{
             position: absolute;
-            /* pakoreguot */
+            top: -35px;
+            left: -10px;
+            z-index: -1;
         }
         .profile {
             display: inline-block;

@@ -191,6 +191,7 @@ body{
                     display: inline-block;
                     width: 100%;
                     line-height: 20px;
+                    font-size: 12px;
                 }
             .author {
                 display: inline-block;
@@ -210,6 +211,8 @@ body{
                     font-weight: 700;
                     margin-left: 3%;
                     font-size: 10px;
+                    letter-spacing: 1px;
+                    margin-bottom: 1px;
                 }
                 .position {
                     display: inline-block;
